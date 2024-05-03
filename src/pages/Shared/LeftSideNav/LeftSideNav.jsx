@@ -11,7 +11,7 @@ const LeftSideNav = () => {
     }, [])
 
     return (
-        <div className="space-y-6">
+        <div className=" p-4 space-y-6 border mt-6">
             <h2 className="text-2xl">All Categories</h2>
             {
                 categories.map(category => <Link 
